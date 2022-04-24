@@ -1,0 +1,193 @@
+/*Général*/
+*
+{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p
+{
+    font-family: 'Roboto';
+}
+
+h2
+{
+    font-family: 'shrikhand';
+    font-size: 28px;
+}
+
+h3
+{
+    font-size: 17px;
+    font-weight: 450;
+}
+
+p
+{
+    font-size: 14px;
+    font-weight: 350;
+}
+
+
+.premiere-ligne
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 6% 0 6%;
+    width: 67%;
+    height: 63px;
+}
+
+.fa-arrow-left
+{
+    font-size: 20px;
+}
+
+.logo
+{
+    font-family: 'shrikhand';
+    font-size: 30px;
+}
+
+.img-header
+{
+    width: 100%;
+    height: 300px;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 1px solid black;
+    padding-top: 35px;
+    background-color: #F5F5F5;
+}
+
+.intro-carte
+{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    margin-bottom: 45px;
+    width: 85%;
+}
+
+.fa-heart
+{
+    font-size: 24px;
+}
+
+.carte
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 275px;
+    margin-bottom: 40px;
+}
+
+
+.categorie
+{
+    width: fit-content;
+    margin-left: 5%;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.categorie::before
+{
+    content : "";
+    position: absolute;
+    left    : 0;
+    bottom  : 0;
+    height  : 0px;
+    width   : 40px;
+    border-bottom: 3px solid #99E2D0;
+}
+
+.les-plats
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 235px;
+}
+
+.plat
+{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px 20px 5px 10px;
+    height: 70px;
+    width: 94%;
+}
+
+.texte-plat
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.prix
+{
+    align-self: flex-end;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.bouton
+{
+    align-self: center;
+    border-radius: 40px;
+    background-color: #9356DC;
+    margin-bottom: 85px;
+    width: 50%;
+    height: 50px;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0px 0px 25px;
+    height: 200px;
+    background-color: #353535;
+    color: white;
+}
+
+.logo-footer
+{
+    font-family: 'shrikhand';
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.ul-footer
+{
+    line-height: 25px;
+}
+
+.li-footer
+{
+    display: flex;
+    align-items: center;
+}
+
+.icones-footer
+{
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.fa-handshake-angle
+{
+    font-size: 10px;
+}
