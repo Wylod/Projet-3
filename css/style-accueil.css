@@ -1,4 +1,5 @@
-/*Général*/
+/*Général -> On écrit ici des règles pour des propriétés et des div que l'on va utiliser sur toute la page*/
+
 *
 {
     box-sizing: border-box;
@@ -28,7 +29,7 @@ p
     font-weight: 300;
 }
 
-/*body*/
+/* body -> Régles pour les id et class, dans l'ordre d'apparition*/
 
 body
 {
@@ -64,7 +65,7 @@ header
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E8E8E8;
+    background-color: #EAEAEA;
     box-shadow: lightgray 3px 3px 5px inset;
     font-weight: 100;
     height: 50px;
@@ -74,6 +75,7 @@ header
 .fa-location-dot
 {
     margin-right: 5%;
+    color: #353535;
 }
 
 .bas-header
@@ -83,7 +85,7 @@ header
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    background-color: #F5F5F5;
+    background-color: #F6F6F6;
     height: 287px;
     width: 100%;
 }
@@ -137,7 +139,7 @@ header
 {
     display: flex;
     align-items: center;
-    background-color: #F5F5F5;
+    background-color: #F6F6F6;
     box-shadow: lightgray 0.5px 0.5px 10px;
     border-radius: 20px;
     width: 99%;
@@ -169,13 +171,14 @@ header
 {
     font-size: 17px;
     margin: 0% 5% 0% 6.5%;
+    color: #7E7E7E;
 }
 
 .les-restaurants
 {
     display: flex;
     flex-direction: column;
-    background-color: #F5F5F5;
+    background-color: #F6F6F6;
     padding: 55px 5% 65px 5%;
     height: 1225px;
 }
@@ -204,11 +207,32 @@ header
     height: 250px;
 }
 
+.div-img-resto
+{
+    position: relative;
+    height: 175px;
+    width: 100%;
+}
+
 .img-resto
 {
     height: 175px;
     width: 100%;
     object-fit: cover;
+}
+
+.nouveau
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #99E2D0;
+    color: #1C977A;
+    position: absolute; top: 13px; left: 243px;
+    width: 24%;
+    height: 30px;
 }
 
 .bas-resto
