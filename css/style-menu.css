@@ -32,6 +32,16 @@ p
 
 /* body -> Régles pour les id et class, dans l'ordre d'apparition*/
 
+#container
+{
+    position: relative;
+}
+
+header
+{
+    width: 100%;
+}
+
 .premiere-ligne
 {
     display: flex;
@@ -53,20 +63,19 @@ p
     font-size: 30px;
 }
 
-
-
-main
-{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
 .img-header
 {
     object-fit: cover;
     width: 100%;
     height: 275px;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    position: relative; top: -55px;
+    width: 100%;
 }
 
 .la-carte
@@ -78,8 +87,6 @@ main
     border-top: 1px solid black;
     padding-top: 35px;
     background-color: #F6F6F6;
-    position: absolute; top: 220px;
-    height: 1195px;
     width: 100%;
 }
 
@@ -166,7 +173,7 @@ main
     background-color: #9356DC;
     margin-bottom: 85px;
     width: 50%;
-    height: 50px;
+    min-height: 50px;
 }
 
 footer
@@ -177,7 +184,7 @@ footer
     height: 200px;
     background-color: #353535;
     color: white;
-    position: absolute; top: 1471px;
+    position: absolute; bottom: -145px;
     width: 100%;
 }
 
