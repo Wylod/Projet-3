@@ -9,6 +9,7 @@ h1
 {
     font-size: 20px;
     font-weight: 600;
+    line-height: 23px;
 }
 
 h2
@@ -27,6 +28,7 @@ p
 {
     font-size: 14px;
     font-weight: 300;
+    line-height: 18px;
 }
 
 /* body -> Régles pour les id et class, dans l'ordre d'apparition*/
@@ -82,7 +84,7 @@ header
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     background-color: #F6F6F6;
@@ -94,14 +96,13 @@ header
 {
     text-align: center;
     line-height: 22px;
-    padding: 0px 10% 0px 10%;
+    padding: 0px 9% 0px 9%;
 }
 
 .accroche-un
 {
-    padding: 0px 60px 0px 60px;
-    margin-bottom: 30px;
-    margin: 35px 0px 30px 0px;
+    padding: 0px 40px 0px 40px;
+    margin: 40px 0px 20px 0px;
 }
 
 .bouton
@@ -109,9 +110,9 @@ header
     border-radius: 40px;
     background-color: #9356DC;
     color: white;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     height: 50px;
-    width: 60%;
+    width: 220px;
 }
 
 .sommaire
@@ -130,7 +131,7 @@ header
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     height: 270px;
     width: 100%;
 }
@@ -230,8 +231,8 @@ header
     font-weight: 500;
     background-color: #99E2D0;
     color: #1C977A;
-    position: absolute; top: 13px; left: 243px;
-    width: 24%;
+    position: absolute; top: 13px; right: 7px;
+    width: 80px;
     height: 30px;
 }
 
@@ -253,6 +254,7 @@ header
 .fa-heart
 {
     font-size: 25px;
+    margin-top: 5px;
 }
 
 footer
@@ -274,7 +276,10 @@ footer
 
 .ul-footer
 {
-    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95px;
 }
 
 .li-footer

@@ -2,3 +2,71 @@ body
 {
     background-color: lightgreen;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 20% 0px 20%;
+    height: 200px;
+    background-color: #353535;
+    color: white;
+}
+
+.logo-footer
+{
+    font-family: 'shrikhand';
+    font-size: 22px;
+    margin-bottom: 30px;
+    align-self: center;
+}
+
+.ul-footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.ligne-footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.li-footer
+{
+    display: flex;
+    align-items: center;
+}
+
+.icones-footer
+{
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.fa-handshake-angle
+{
+    font-size: 10px;
+}
