@@ -1,0 +1,24 @@
+.bouton
+{
+    transform: scale(1);
+}
+
+.bouton:hover
+{
+    transform: scale(1.15);
+    transition: transform 400ms;
+}
+
+input:focus
+{
+    border: 2px solid violet;
+    outline: none;
+
+}
+
+input:not(:focus):invalid
+{
+    color: red;
+    background-color: aquamarine;
+    transition: background-color 5000ms;
+}

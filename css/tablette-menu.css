@@ -2,3 +2,235 @@ body
 {
     background-color: lightblue;
 }
+
+/*Général -> On écrit ici des règles pour des propriétés et des div que l'on va utiliser sur toute la page*/
+
+*
+{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p
+{
+    font-family: 'Roboto';
+}
+
+h2
+{
+    font-family: 'shrikhand';
+    font-size: 28px;
+}
+
+h3
+{
+    font-size: 17px;
+    font-weight: 450;
+    line-height: 20px;
+}
+
+p
+{
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 20px;
+}
+
+/* body -> Régles pour les id et class, dans l'ordre d'apparition*/
+
+#container
+{
+    position: relative;
+}
+
+header
+{
+    width: 100%;
+}
+
+.premiere-ligne
+{
+    display: flex;
+    align-items: center;
+    margin: 0 6% 0 6%;
+    width: 100%;
+    height: 63px;
+}
+
+.fa-arrow-left
+{
+    font-size: 20px;
+    width: 28%;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'shrikhand';
+    font-size: 30px;
+    margin-right: 10%;
+    width: 40%;
+}
+
+.img-header
+{
+    object-fit: cover;
+    width: 100%;
+    height: 275px;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    position: relative; top: -35px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding-top: 35px;
+    padding: 35px 15px 0px 15px;
+    background-color: #F6F6F6;
+    width: 100%;
+}
+
+.la-carte
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.intro-carte
+{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    margin-bottom: 45px;
+    width: 85%;
+}
+
+.fa-heart
+{
+    font-size: 24px;
+}
+
+.carte
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+
+.categorie
+{
+    width: fit-content;
+    margin: 0 0 16px 5%;
+    padding-bottom: 10px;
+    position: relative;
+    width: 78px;
+}
+
+.categorie::before
+{
+    content : "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0px;
+    width: 40px;
+    border-bottom: 3px solid #99E2D0;
+}
+
+.les-plats
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.plat
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    padding: 14px 10px 14px 10px;
+    margin-bottom: 0px;
+    height: 120px;
+    width: 30%;
+}
+
+.texte-plat
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 0%;
+    line-height: 30px;
+    min-height: 45px;
+}
+
+.prix
+{
+    align-self: center;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.bouton
+{
+    align-self: center;
+    border-radius: 40px;
+    background-color: #9356DC;
+    margin-bottom: 85px;
+    margin-top: 35px;
+    width: 270px;
+    min-height: 60px;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0px 0px 25px;
+    height: 200px;
+    background-color: #353535;
+    color: white;
+    position: absolute; bottom: -145px;
+    width: 100%;
+}
+
+.logo-footer
+{
+    font-family: 'shrikhand';
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.ul-footer
+{
+    line-height: 25px;
+}
+
+.li-footer
+{
+    display: flex;
+    align-items: center;
+}
+
+.icones-footer
+{
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.fa-handshake-angle
+{
+    font-size: 10px;
+}

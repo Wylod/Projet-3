@@ -51,6 +51,11 @@ header
     width: 100%;
 }
 
+.haut-header
+{
+    width: 100%;
+}
+
 .logo
 {
     display: flex;
