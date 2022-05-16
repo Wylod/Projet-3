@@ -1,24 +1,64 @@
 .bouton
 {
-    transform: scale(1);
+    transition: all 300ms ease 100ms;
 }
 
 .bouton:hover
 {
-    transform: scale(1.15);
-    transition: transform 400ms;
+    cursor: pointer;
+    box-shadow: 35px 25px 50px #FF79DA inset;
 }
 
-input:focus
+.fa-heart
 {
-    border: 2px solid violet;
-    outline: none;
-
+    transition : color 300ms ease-in-out 50ms;
 }
 
-input:not(:focus):invalid
+.fa-heart:hover
 {
-    color: red;
-    background-color: aquamarine;
-    transition: background-color 5000ms;
+    color: #9356DC;
+    font-weight: bold;
+    cursor: pointer;
 }
+
+.carte
+{
+    animation: plat-key 700ms forwards;
+    opacity: 0;
+}
+
+.carte-plats
+{
+    animation-delay: 700ms;
+}
+
+.carte-desserts
+{
+    animation-delay: 1400ms;
+}
+
+@keyframes plat-key
+{
+    0% { opacity: 0; }
+    15% { opacity: 0.1; }
+    30% { opacity: 0.2; }
+    45% { opacity: 0.4; }
+    60%,100% { opacity: 1; }
+}
+
+.fa-utensils::before
+{
+    position: fixed; top: 15%; left: 33%;
+    font-weight: bold;
+    z-index: -1;
+    font-size: 450px;
+    color: black;
+    animation: rotation 2300ms linear;
+
+}
+
+@keyframes rotation {
+    0%,100% { z-index: 20;}
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

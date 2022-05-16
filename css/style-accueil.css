@@ -113,6 +113,7 @@ header
 .bouton
 {
     border-radius: 40px;
+    border: 0;
     background-color: #9356DC;
     color: white;
     margin-bottom: 60px;
